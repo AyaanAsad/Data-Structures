@@ -1,0 +1,10 @@
+if we do: int arr [1000]={0};, all 1000 elements get initialized with 0
+this is true for 0 only, any other number wont work.
+If we dont initialize anything at all, it will have garbage values. 
+
+how to find length of array : sizeof(arr)/sizeof(int); will only work if array is completely full
+INT_MIN -> Minimum value (-2^31) stores minimum value
+INT_MAX -> Maximum value (2^31) stores maximum value
+
+another way to find max and min :
+int maxvar = max(maxvar,arr[i]); int minvar = min(minvar,arr[i]);
