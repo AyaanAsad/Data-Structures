@@ -1,11 +1,13 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main(){
     int n;
     cout << "Enter length of the array: \n";
     cin >> n;
-    int arr[n]; int resarr[n];
+    vector<int> arr(n);
+    vector<int> resarr(n);
     cout << "Enter the values of the array: \n";
     for(int i=0;i<n;i++){
         cin >> arr[i];
